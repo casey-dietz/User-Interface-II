@@ -37,7 +37,7 @@ html {
 .header-section{
     background-color:  rgb(80, 146, 80);
     width: 100vw;
-    padding: 20px;
+    padding: 1%;
 }
 
 h1{
@@ -45,6 +45,10 @@ h1{
     color: white;
     font-size: xx-large;
     font-family:'Poppins', sans-serif;
+    /* border: solid black; */
+    margin: 0 auto;
+    justify-content: center;
+    width: 50%;
 }
 
 .header-nav {
@@ -52,9 +56,10 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 1%;
     list-style-type: none;
     width: 50%;
+    /* border: solid black; */
 }
 
 .header-nav button{
@@ -72,7 +77,9 @@ h1{
 h3{
     display: flex;
     justify-content:center;
-    padding: 20px;
+    align-content: center;
+    padding: 1%;
+    /* border: solid black; */
 }
 
 .info-section {
@@ -109,7 +116,9 @@ h3{
 
 footer{
     background-color: rgb(80, 146, 80);
-    width: 100vw;
+    width: 100%;
+    padding: 1%;
+    /* border: solid black; */
 }
 
 .footer-nav{
@@ -117,8 +126,10 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
-    width: 100%; 
+    padding: 1.5%;
+    width: 75%; 
+    margin: 0 auto;
+    /* border: solid black; */
 }
 
 .footer-nav button{
@@ -127,9 +138,9 @@ footer{
     width: 150px;
     border: none;
     border-radius: 10px;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
 }
 
 .footer-nav button:hover{
