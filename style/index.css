@@ -64,7 +64,7 @@ h1{
 
 .header-nav button{
     background-color: white;
-    padding: 20px;
+    padding: 10%;
     width: 150px;
     border: none;
     border-radius: 10px;
@@ -134,7 +134,7 @@ footer{
 
 .footer-nav button{
     background-color: white;
-    padding: 20px;
+    padding: 10%;
     width: 150px;
     border: none;
     border-radius: 10px;
