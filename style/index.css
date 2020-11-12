@@ -1,8 +1,4 @@
-/* Add CSS styling here */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,7 +41,6 @@ h1{
     color: white;
     font-size: xx-large;
     font-family:'Poppins', sans-serif;
-    /* border: solid black; */
     margin: 0 auto;
     justify-content: center;
     width: 50%;
@@ -59,7 +54,6 @@ h1{
     padding: 1%;
     list-style-type: none;
     width: 50%;
-    /* border: solid black; */
 }
 
 .header-nav button{
@@ -80,7 +74,6 @@ h3{
     justify-content:center;
     align-content: center;
     padding: 1%;
-    /* border: solid black; */
 }
 
 .info-section {
@@ -89,7 +82,6 @@ h3{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* border: solid black; */
     margin: 0 auto;
     width: 80%;
     padding: 1%;
@@ -100,7 +92,6 @@ h3{
     flex-flow: wrap;
     padding: 1%;
     margin: 0 auto;
-    /* border: solid black; */
     width: 80%;
 }
 
@@ -119,7 +110,6 @@ footer{
     background-color: rgb(80, 146, 80);
     width: 100%;
     padding: 1%;
-    /* border: solid black; */
 }
 
 .footer-nav{
@@ -130,7 +120,6 @@ footer{
     padding: 1.5%;
     width: 75%; 
     margin: 0 auto;
-    /* border: solid black; */
 }
 
 .footer-nav button{
@@ -140,9 +129,6 @@ footer{
     border: none;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    /* align-items: center;
-    justify-content: center;
-    text-align: center; */
 }
 
 .footer-nav button:hover{
@@ -151,234 +137,57 @@ footer{
 
 /* adding media queries starts here */
 
-@media only screen and (max-width: 800px){
-    html {
-        font-size: 62.5%;
-    }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-        overflow-x: hidden;
-    }
-    
-    .header-section{
-        background-color:  rgb(80, 146, 80);
-        width: 100vw;
-        padding: 1%;
-    }
-    
-    h1{
-        text-align:center;
-        color: white;
-        font-size: xx-large;
-        font-family:'Poppins', sans-serif;
-        margin: 0 auto;
-        justify-content: center;
-        width: 50%;
-    }
-    
+@media screen and (max-width: 1024px){
     .header-nav {
-        margin: 0 auto;
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
-        padding: 1%;
-        list-style-type: none;
-        width: 50%;
-    }
-    
-    .header-nav button{
-        background-color: white;
-        padding: 10%;
-        width: 100px;
-        border: none;
-        border-radius: 10px;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    .header-nav button:hover {
-        background-color: rgb(223, 223, 223);
-    }
-    
-    h3{
-        display: flex;
-        justify-content:center;
-        align-content: center;
-        padding: 1%;
-    }
-    
-    .info-section {
-        font-family:'Poppins', sans-serif;
-        font-size: 1.6rem;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        width: 80%;
-        padding: 1%;
-    }
-    
-    .portfolio-section {
-        display: flex;
-        flex-flow: wrap;
-        padding: 1%;
-        margin: 0 auto;
-        width: 80%;
-    }
-    
-    .portfolio-section .project {
-        width: 450px;
-        height: 450px;
-        margin: 20px auto;
-        border-radius: 10px;
-    }
-    
-    .project:hover{
-        box-shadow: 3px 3px 8px rgb(32, 32, 32);
-    }
-    
-    footer{
-        background-color: rgb(80, 146, 80);
         width: 100%;
-        padding: 1%;
     }
-    
-    .footer-nav{
-        background-color: rgb(80, 146, 80);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 1.5%;
-        width: 75%; 
-        margin: 0 auto;
-    }
-    
-    .footer-nav button{
-        background-color: white;
-        padding: 10%;
-        width: 150px;
-        border: none;
-        border-radius: 10px;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    .footer-nav button:hover{
-        background-color: rgb(223, 223, 223);
-    }
-}
 
-@media only screen and (max-width: 500px){
-    html {
-        font-size: 62.5%;
-    }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-        overflow-x: hidden;
-    }
-    
-    .header-section{
-        background-color:  rgb(80, 146, 80);
-        width: 100vw;
-        padding: 1%;
-    }
-    
-    h1{
-        text-align:center;
-        color: white;
-        font-size: xx-large;
-        font-family:'Poppins', sans-serif;
-        margin: 0 auto;
-        justify-content: center;
-        width: 50%;
-    }
-    
-    .header-nav {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 1%;
-        list-style-type: none;
-        width: 50%;
-    }
-    
-    .header-nav button{
-        background-color: white;
-        padding: 10%;
-        width: 50px;
-        border: none;
-        border-radius: 10px;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    .header-nav button:hover {
-        background-color: rgb(223, 223, 223);
-    }
-    
-    h3{
-        display: flex;
-        justify-content:center;
-        align-content: center;
-        padding: 1%;
-    }
-    
-    .info-section {
-        font-family:'Poppins', sans-serif;
-        font-size: 1.6rem;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        width: 80%;
-        padding: 1%;
-    }
-    
-    .portfolio-section {
-        display: flex;
-        flex-flow: wrap;
-        padding: 1%;
-        margin: 0 auto;
-        width: 80%;
-    }
-    
     .portfolio-section .project {
-        width: 450px;
-        height: 450px;
-        margin: 20px auto;
+        width: 250px;
+        height: 250px;
+        margin: 15px auto;
         border-radius: 10px;
     }
-    
-    .project:hover{
-        box-shadow: 3px 3px 8px rgb(32, 32, 32);
-    }
-    
-    footer{
-        background-color: rgb(80, 146, 80);
-        width: 100%;
-        padding: 1%;
-    }
-    
-    .footer-nav{
-        background-color: rgb(80, 146, 80);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 1.5%;
-        width: 75%; 
-        margin: 0 auto;
-    }
-    
-    .footer-nav button{
-        background-color: white;
-        padding: 10%;
-        width: 150px;
-        border: none;
+
+    .header-nav button{
+        padding: 7.5%;
+        width: 100px;
         border-radius: 10px;
-        font-family: 'Poppins', sans-serif;
     }
-    
-    .footer-nav button:hover{
-        background-color: rgb(223, 223, 223);
+
+    .footer-nav button {
+        padding: 7.5%;
+        width: 100px;
+        border-radius: 10px;
     }
 }
+  
+@media only screen and (max-width: 500px){
+    .header-nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .portfolio-section .project {
+        width: 150px;
+        height: 150px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .header-nav button{
+        padding: 5%;
+        width: 100px;
+        border-radius: 10px;
+    }
+
+    .footer-nav button {
+        padding: 5%;
+        width: 100px;
+        border-radius: 10px;
+    }
+}
+    
